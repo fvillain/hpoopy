@@ -12,6 +12,8 @@ setup(
     author='Francois Villain',
     author_email='francois.villain@gmail.com',
     
+    packages=find_packages(),
+    
     description='HPOO v10 python SDK (non-official)',
     long_description=open('README.md').read(),
     include_package_data=True,

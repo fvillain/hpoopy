@@ -5,14 +5,10 @@ This module allow you to interact easily with HPOO in python
 
 # Installation method
 
-> pip install hpoopy
+    pip install hpoo
 
 # Usage sample
 
-```python
-
-from hpoo import HPOO
-oo = HPOO(url="[URL OF YOUR INSTANCE]", user="[USERNAME]", password="[PASS]")
-oo.start_flow(uuid='[FLOW-UUID]', runName='my run', inputs={})
-
-```
+    from hpoo import HPOO
+    oo = HPOO(url="[URL OF YOUR INSTANCE]", user="[USERNAME]", password="[PASS]")
+    oo.start_flow(uuid='[FLOW-UUID]', runName='my run', inputs={})

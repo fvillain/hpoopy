@@ -12,3 +12,8 @@ This module allow you to interact easily with HPOO in python
     from hpoo import HPOO
     oo = HPOO(url="[URL OF YOUR INSTANCE]", user="[USERNAME]", password="[PASS]")
     oo.start_flow(uuid='[FLOW-UUID]', runName='my run', inputs={})
+    
+# Links
+
+* GitHub : https://github.com/fvillain/hpoopy
+* PyPi : https://pypi.python.org/pypi/hpoo
